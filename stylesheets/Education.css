@@ -1,0 +1,240 @@
+body {
+    height: 1024px;
+    background-image: url(assets/bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation: move 200s infinite , trans 0.80s ease;
+    
+
+}
+@keyframes trans{
+    from {
+opacity: 0;
+transform: rotate(-10);
+    }
+
+    to{
+        opacity: 1;
+       transform:rotate(0);
+
+    }
+}
+
+@keyframes move {
+    50% {
+        background-position: center;
+    }
+}
+
+.navbar {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    ;
+    background: linear-gradient(90deg, #A2798F 0%, #8D697C 21%, #7C5C6D 37.5%, #634A57 62%, #523E49 78%, #3C2D35 100%);
+}
+
+.navbar>img {
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    left: 10px;
+    top: 10px;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    column-gap: 50px;
+    margin-right: 50px;
+    justify-content: end;
+    font-size: 25px;
+}
+
+.button {
+    color: #EBDADA;
+    font-family: 'Open sans';
+}
+
+.button>a:hover {
+    box-sizing: border-box;
+    background: #EBDADA;
+    border: 4px solid rgba(140, 171, 168, 0.53);
+    border-radius: 9px;
+    color: rgba(140, 171, 168);
+}
+
+a {
+    text-decoration: none;
+    color: #EBDADA;
+}
+
+.top{
+
+    position: absolute;
+    width: 400px;
+    height: 90px;
+    left: 547px;
+    top: 210px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid #464545;
+    
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 89px;
+    text-align: center;
+    color: #464545;
+    
+    }
+
+
+
+
+
+/* h1{
+    position: absolute;
+    width: 560px;
+    height: 80px;
+    left: 450px;
+    top: 100px;
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 89px;
+    text-align: center;
+    color: #464545;
+} */
+
+section{
+position: absolute;
+width: 1200px;
+height: 400px;
+left: 150px;
+top: 300px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+#school{
+    height: 450px;
+    width: 450px;
+}
+#phi{
+    height: 350px;
+    width: 350px;
+}
+#uopeople{
+    height: 500px;
+    width: 500px;
+}
+ article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    position: absolute;
+    top: 700px;
+    column-gap: 100px;
+
+ }
+ .school{
+
+position: absolute;
+width: 350px;
+height: 210px;
+left: 100px;
+top: 20px;
+
+height: 150px;
+background-color:rgb(235, 218, 218, .2) ;
+border: 10px solid rgb(235, 218, 218, .4);
+
+
+font-family: 'Open sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height:  35px;;
+text-align: center;
+
+color: #484E53;
+
+
+
+ }
+ .phi{
+position: relative;
+left: 540px;
+top: 20px;
+
+width: 350px;
+height: 150px;
+background-color:rgb(235, 218, 218, .2) ;
+border: 10px solid rgb(235, 218, 218, .4);
+
+font-family: 'Open sans';
+font-weight: 600;
+font-size: 20px;
+
+line-height:  35px;
+text-align: center;
+color: #484E53;
+
+
+ }
+ .uopeople{
+
+
+width: 350px;
+height: 300px;
+
+height: 150px;
+background-color:rgb(235, 218, 218, .2) ;
+border: 10px solid rgb(235, 218, 218, .4);
+
+font-family: 'Open sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 35px;
+text-align: center;
+color: #484E53;
+
+position: relative;
+left: 510px;
+top: 20px;
+}
+
+footer>button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    width: 177px;
+    height: 61px;
+    left: 631px;
+    top: 950px;
+
+    font-family: 'Open sans';
+    font-size: large;
+    background: #EBDADA;
+    border: 4px solid rgba(140, 171, 168, 0.53);
+    border-radius: 9px;
+    color: rgba(140, 171, 168);
+
+}
