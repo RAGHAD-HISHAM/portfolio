@@ -37,8 +37,9 @@ transform: rotate(-10);
     height: 90px;
     left: 0px;
     top: 0px;
-    ;
     background: linear-gradient(90deg, #A2798F 0%, #8D697C 21%, #7C5C6D 37.5%, #634A57 62%, #523E49 78%, #3C2D35 100%);
+    border-bottom: 20px solid #FEFCF9;
+
 }
 
 .navbar>img {
@@ -115,19 +116,22 @@ article {
 
 }
 
+footer{
+    position: relative;
+  height: 200px;
+    left: 631px;
+    top: 1000px;
+
+}
+
 footer>button {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
-    position: relative;
     width: 177px;
     height: 61px;
-    left: 631px;
-    top: 920px;
-
     font-family: 'Open sans';
     font-size: large;
     background: #EBDADA;
@@ -136,4 +140,3 @@ footer>button {
     color: rgba(140, 171, 168);
 
 }
-

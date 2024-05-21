@@ -33,7 +33,7 @@ transform: rotate(-10);
     height: 90px;
     left: 0px;
     top: 0px;
-    ;
+    border-bottom: 20px solid #FEFCF9;
     background: linear-gradient(90deg, #A2798F 0%, #8D697C 21%, #7C5C6D 37.5%, #634A57 62%, #523E49 78%, #3C2D35 100%);
 }
 
@@ -76,7 +76,7 @@ a {
 .top{
 
     position: absolute;
-    width: 400px;
+    width: 440px;
     height: 90px;
     left: 547px;
     top: 210px;
@@ -84,7 +84,7 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border-bottom: solid #464545;
+    border-bottom: 10px solid #FEFCF9;
     
     font-family: 'Oleo Script';
     font-style: normal;

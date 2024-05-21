@@ -3,7 +3,7 @@ html {
   }
 
 body {
-    height: 1024px;
+    height: 4210px;
     background-image: url(assets/bg.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -37,8 +37,9 @@ transform: rotate(-10);
     height: 90px;
     left: 0px;
     top: 0px;
-    ;
     background: linear-gradient(90deg, #A2798F 0%, #8D697C 21%, #7C5C6D 37.5%, #634A57 62%, #523E49 78%, #3C2D35 100%);
+    border-bottom: 20px solid #FEFCF9;
+
 }
 
 .navbar>img {
@@ -80,7 +81,7 @@ a {
 .top{
 
 position: absolute;
-width: 400px;
+width: 420px;
 height: 90px;
 left: 547px;
 top: 210px;
@@ -88,7 +89,8 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-border-bottom: solid #464545;
+
+border-bottom: 10px solid #FEFCF9;
 
 font-family: 'Oleo Script';
 font-style: normal;
@@ -215,24 +217,419 @@ width: 835px;
 height: 470px;
 left: 527px;
 top: 900px;
+border: 20px solid #FEFCF9;
 
-border: 20px solid #464545;
 
 }
-hr{
+hr.one{
 
 position: absolute;
 width: 1346px;
 height: 0px;
 left: 50px;
 top: 1616px;
+border: 10px solid #FEFCF9;
 
-border: 10px solid #464545;
-border-radius: 400px;
-transform: rotate(179.91deg);
+
+}
+hr.two{
+
+    position: absolute;
+    width: 1346px;
+    height: 0px;
+    left: 50px;
+    top: 2600px;
+    border: 10px solid #FEFCF9;
+    
+    
+    }
+    
+
+.one{
+position: absolute;
+width: 383px;
+height: 70px;
+left: 528px;
+top: 1800px;
+
+font-family: 'Oleo Script';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 10px;
+text-align: center;
+
+color: #464545;
+
+}
+.one>img{
+    width: 150px;
+    height: 220px;
+
+
+}
+.web{
+
+position: absolute;
+width: 260px;
+height: 36px;
+left: 120px;
+top: 2123px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #464545;
+
+
+}
+.Design{
+    /* Design Tools */
+
+position: absolute;
+width: 180px;
+height: 36px;
+left: 470px;
+top: 2123px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+
+color: #464545;
+
+
+}
+.Control{
+    /* Version Control */
+
+position: absolute;
+width: 220px;
+height: 36px;
+left: 730px;
+top: 2123px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+
+color: #464545;
+
+
+}
+.Archiving{
+    /* Archiving & Classification */
+
+position: absolute;
+width: 350px;
+height: 36px;
+left: 1025px;
+top: 2123px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+text-align: center;
+
+color: #464545;
+
+
+}
+.html{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 50px;
+    top: 2200px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 37px;
+    text-align: center;
+    
+    color: #464545;
+    
+}
+.CSS3{
+position: absolute;
+width: 150px;
+height: 110px;
+left: 220px;
+top: 2200px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 37px;
+text-align: center;
+
+color: #464545;
+
+}
+.Figma{
+    position: absolute;
+    width: 180px;
+    height: 150px;
+    left: 430px;
+    top: 2210px;
+
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 43px;
+    text-align: center;
+    
+    color: #464545;
+
+}
+.GitHub{
+
+    position: absolute;
+    width: 180px;
+    height: 150px;
+    left: 710px;
+    top: 2200px;
+
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #464545;
+    
+ 
+    
+
+}
+.Book { 
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    left: 1030px;
+    top: 2200px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    
+    color: #464545;
+ 
 
 }
 
+.two{
+    position: absolute;
+    width: 383px;
+    height: 70px;
+    left: 528px;
+    top: 2800px;
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 10px;
+    text-align: center;
+    
+    color: #464545;
+
+}
+ .two>img{        
+    width: 150px;
+    height: 220px;
+}
+
+
+h5.comunication{
+    position: absolute;
+    width: 275px;
+    height: 149px;
+    left: 121px;
+    top: 3365px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+    color: #464545;
+}
+
+
+figure.Communication{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    left: 100px;
+    top: 3150px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    
+    color: #464545;
+}
+
+h5.Customer{
+
+position: absolute;
+width: 300px;
+height: 144px;
+left: 590px;
+top: 3365px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 36px;
+text-align: center;
+
+color: #464545;
+
+
+}
+
+figure.Customer{
+position: absolute;
+width: 300px;
+height: 200px;
+left: 550px;
+top: 3150px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+color: #464545;
+}
+
+h5.Problem-Solving{
+    position: absolute;
+    width: 350px;
+    height: 149px;
+    left: 1015px;
+    top: 3365px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+    color: #464545;
+}
+
+figure.Problem-Solving{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 1000px;
+    top: 3150px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #464545;
+
+
+}
+    
+
+
+h5.Organizational{
+    position: absolute;
+    width: 350px;
+    height: 149px;
+    left: 350px;
+    top: 3870px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+    color: #464545;
+}
+
+figure.Organizational{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 350px;
+    top: 3670px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #464545;
+}
+
+
+h5.Coordination{
+    position: absolute;
+    width: 270px;
+    height: 149px;
+    left: 850px;
+    top: 3870px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+    color: #464545;
+}
+
+figure.Coordination{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 800px;
+    top: 3670px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #464545;
+}
+    
+footer{
+    position: relative;
+  height: 200px;
+    left: 631px;
+    top: 4200px;
+
+}
 
 footer>button {
     box-sizing: border-box;
@@ -240,13 +637,8 @@ footer>button {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
-    position: relative;
     width: 177px;
     height: 61px;
-    left: 631px;
-    top:1500px;
-
     font-family: 'Open sans';
     font-size: large;
     background: #EBDADA;
