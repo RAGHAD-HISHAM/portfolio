@@ -1,6 +1,4 @@
-html {
-    scroll-behavior: smooth;
-  }
+
 
 body {
     height: 4210px;
@@ -8,7 +6,8 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     animation: move 200s infinite , trans 0.80s ease;
- 
+    max-width: 100%;
+    overflow-x: hidden;
 
 }
 @keyframes trans{
@@ -645,8 +644,4 @@ footer>button {
     border: 4px solid rgba(140, 171, 168, 0.53);
     border-radius: 9px;
     color: rgba(140, 171, 168);
-
 }
-
-
-

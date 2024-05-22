@@ -4,7 +4,8 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     animation: move 200s infinite , trans 0.80s ease;
-    
+    max-width: 100%;
+    overflow-x: hidden;
 
 }
 @keyframes trans{
